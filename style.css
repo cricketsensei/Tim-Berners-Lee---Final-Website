@@ -1,0 +1,123 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    text-align: center;
+    margin: 0;
+    padding-top: 800px;
+}
+
+.menu{
+    list-style: none;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    background-color: black;
+    width:100%;
+    margin-top: 0px;
+}
+
+#profile1{
+    border-radius: 50%;
+    margin-top: 100px;
+}
+
+#home{
+    position: absolute;
+    color: #066B8B;
+    bottom: 0;
+    display: table;
+    width:100%;
+    height:100%;
+    background:linear-gradient(#60CEEB 10%,#FFC08D 90%);
+    overflow: auto;
+}
+
+#divison{
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    text-align: center;
+}
+
+h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-variant: small-caps;
+    font-weight: 400;
+}
+
+h2{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+
+#profile{
+    font-family: 'Fruktur', cursive;
+}
+
+#www{
+    font-family: sans-serif;
+}
+
+#bio{
+    background: linear-gradient(#ffbe00 10% ,#27a140 90%);
+    padding: 50px;
+    text-align: center;
+    opacity: 35;
+    top: 99px;
+}
+
+#line{
+    height: 6px;
+    width: 70px;
+    background-color: black;
+    margin: 8px auto;
+}
+
+.links{
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 30px;
+    display: inline;
+}
+
+.links:hover{
+    font-size:40px;
+    color:whitesmoke;
+    text-decoration: underline;
+}
+
+#video{
+    background: linear-gradient(#ffbe00 10%, #27a140 90%);
+}
+
+#books{
+    background: linear-gradient(#ffbe00 10%, #27a140 90%);
+}
+
+#work{
+    background: linear-gradient(#ffbe00 10%, #27a140 90%);
+}
+
+a{
+    color: blue;
+    text-decoration: none;
+}
+
+.port{
+    color: lightgray;
+}
+
+.port:hover{
+    color:whitesmoke;
+}
+
+#contacts{
+    background: linear-gradient(#ffbe00 10%, #27a140 90%);
+}
